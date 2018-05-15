@@ -1,4 +1,4 @@
-package youkeel.Controllers;
+package youkeel.controller;
 
 import org.springframework.stereotype.Service;
 

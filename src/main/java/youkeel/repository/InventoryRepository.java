@@ -1,4 +1,4 @@
-package youkeel.Repository;
+package youkeel.repository;
 
 import youkeel.InventoryData;
 import org.springframework.data.jpa.repository.JpaRepository;

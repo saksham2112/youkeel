@@ -1,8 +1,8 @@
-package youkeel.Controllers;
+package youkeel.controller;
 
-import youkeel.FoodMart.S3Wrapper;
+import youkeel.config.S3Wrapper;
 import youkeel.InventoryData;
-import youkeel.Repository.InventoryRepository;
+import youkeel.repository.InventoryRepository;
 import youkeel.ResourceNotFoundException;
 import com.amazonaws.services.s3.model.PutObjectResult;
 import com.amazonaws.services.s3.model.S3ObjectSummary;

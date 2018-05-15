@@ -1,6 +1,6 @@
 package youkeel;
 
-import youkeel.FoodMart.S3Wrapper;
+import youkeel.config.S3Wrapper;
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.regions.Region;
@@ -18,12 +18,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @SpringBootApplication
 @EnableJpaAuditing
 @PropertySource("classpath:application.properties")
-@ComponentScan(basePackages = {"youkeel.Controllers","youkeel.Repository"})
+@ComponentScan(basePackages = {"youkeel.controller","youkeel.repository"})
 
-public class FoodMartApplication {
+public class YoukeelApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FoodMartApplication.class, args);
+		SpringApplication.run(YoukeelApplication.class, args);
 	}
 
 	@Value("${cloud.aws.credentials.accessKey}")

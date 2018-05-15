@@ -1,4 +1,4 @@
-package youkeel.FoodMart;
+package youkeel.config;
 
 
 import com.amazonaws.services.s3.AmazonS3Client;

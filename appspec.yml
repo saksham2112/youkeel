@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: target/ROOT.war
-    destination: /home/ec2-user/javaapp
+    destination: /home/youkeel/javaapp
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies

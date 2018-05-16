@@ -5,8 +5,8 @@
 
 	<groupId>youkeel.com</groupId>
 	<artifactId>youkeel</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<version>0.1</version>
+	<packaging>war</packaging>
 
 	<name>YouKEEL</name>
 	<description>Demo project for Spring Boot</description>
@@ -63,6 +63,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
